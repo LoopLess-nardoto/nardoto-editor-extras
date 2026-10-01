@@ -1,1 +1,28 @@
-{"schema":1,"addons":[]}
+{
+  "schema": 1,
+  "addons": [
+    {
+      "id": "nardoto-motion-engine",
+      "version": "1.0.0",
+      "name": "Motor de motion",
+      "description": "Toca as composições de motion (HyperFrames) ao vivo na timeline e grava o cache que deixa o export rápido.",
+      "details": "Electron 39.8.10 e ffmpeg. Necessário para usar motion no Nardoto Editor.",
+      "author": "Nardoto",
+      "license": "MIT (motor), MIT (Electron), GPL (ffmpeg)",
+      "kind": "motion-engine",
+      "provides": [
+        {
+          "kind": "motion-engine",
+          "root": "motor",
+          "items": 1
+        }
+      ],
+      "platforms": [
+        "win-x64"
+      ],
+      "downloadSize": 129094832,
+      "installedSize": 424391382,
+      "url": "https://github.com/LoopLess-nardoto/nardoto-editor-extras/releases/download/motion-engine-1.0.0/nardoto-motion-engine-1.0.0-win-x64.driftpkg"
+    }
+  ]
+}
